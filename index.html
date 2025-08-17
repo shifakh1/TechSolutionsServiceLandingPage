@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Our Team | TechSolutions Inc.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">TechSolutions</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#team">Team</a>
+                <a href="#values">Values</a>
+                <a href="#contact">Contact</a>
+                <button class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#about">About</a>
+        <a href="#team">Team</a>
+        <a href="#values">Values</a>
+        <a href="#contact">Contact</a>
+        <div class="theme-toggle mobile-theme">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <span>Toggle Theme</span>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1>Meet Our Team</h1>
+                <p class="subtitle">The brilliant minds behind TechSolutions Inc.</p>
+                <p>We're a diverse team of innovators, creators, and problem solvers dedicated to delivering exceptional digital solutions. Our collective expertise drives our mission to transform ideas into reality.</p>
+                <a href="#team" class="btn">Explore Team</a>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Team collaboration">
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Filter -->
+    <section class="team-filter" id="team" data-aos="fade-up">
+        <div class="container">
+            <h2>Our Expert Team</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="developer">Developers</button>
+                <button class="filter-btn" data-filter="designer">Designers</button>
+                <button class="filter-btn" data-filter="manager">Managers</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Grid -->
+    <section class="team-grid">
+        <div class="container">
+            <div class="grid">
+                <!-- Team Member 1 -->
+                <div class="team-card" data-role="manager" data-aos="zoom-in">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson">
+                            <h3>Sarah Johnson</h3>
+                            <p class="role">CEO & Founder</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Sarah Johnson</h3>
+                            <p class="role">CEO & Founder</p>
+                            <p class="bio">Visionary leader with 15+ years in tech industry. Passionate about creating solutions that make a difference.</p>
+                            <button class="btn view-profile" data-member="1">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="team-card" data-role="developer" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+                            <h3>Michael Chen</h3>
+                            <p class="role">Lead Developer</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Michael Chen</h3>
+                            <p class="role">Lead Developer</p>
+                            <p class="bio">Full-stack wizard specializing in React, Node.js, and cloud architecture. Loves solving complex problems.</p>
+                            <button class="btn view-profile" data-member="2">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="team-card" data-role="designer" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emma Rodriguez">
+                            <h3>Emma Rodriguez</h3>
+                            <p class="role">UX/UI Designer</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Emma Rodriguez</h3>
+                            <p class="role">UX/UI Designer</p>
+                            <p class="bio">Creative designer focused on user-centered solutions. Believes good design should be both beautiful and functional.</p>
+                            <button class="btn view-profile" data-member="3">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 4 -->
+                <div class="team-card" data-role="developer" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="David Kim">
+                            <h3>David Kim</h3>
+                            <p class="role">Backend Developer</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>David Kim</h3>
+                            <p class="role">Backend Developer</p>
+                            <p class="bio">Database and API specialist. Enjoys optimizing systems for maximum performance and reliability.</p>
+                            <button class="btn view-profile" data-member="4">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 5 -->
+                <div class="team-card" data-role="designer" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="Priya Patel">
+                            <h3>Priya Patel</h3>
+                            <p class="role">Graphic Designer</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Priya Patel</h3>
+                            <p class="role">Graphic Designer</p>
+                            <p class="bio">Visual storyteller with a keen eye for detail. Specializes in branding and digital illustration.</p>
+                            <button class="btn view-profile" data-member="5">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 6 -->
+                <div class="team-card" data-role="manager" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="James Wilson">
+                            <h3>James Wilson</h3>
+                            <p class="role">Project Manager</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>James Wilson</h3>
+                            <p class="role">Project Manager</p>
+                            <p class="bio">Agile expert who ensures projects are delivered on time and exceed expectations. Master of team coordination.</p>
+                            <button class="btn view-profile" data-member="6">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values" id="values" data-aos="fade-up">
+        <div class="container">
+            <h2>Our Core Values</h2>
+            <div class="values-grid">
+                <div class="value-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="value-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Innovation</h3>
+                    <p>We constantly push boundaries to create cutting-edge solutions that solve real problems.</p>
+                </div>
+                <div class="value-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="value-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Collaboration</h3>
+                    <p>We believe the best results come from teamwork and diverse perspectives working together.</p>
+                </div>
+                <div class="value-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="value-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Integrity</h3>
+                    <p>We maintain the highest ethical standards in all our interactions and business practices.</p>
+                </div>
+                <div class="value-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="value-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Excellence</h3>
+                    <p>We're committed to delivering exceptional quality in everything we do, every single time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements" data-aos="fade-up">
+        <div class="container">
+            <h2>Our Achievements</h2>
+            <div class="stats">
+                <div class="stat" data-aos="zoom-in">
+                    <span class="number" data-count="150">0</span>
+                    <span class="label">Projects Completed</span>
+                </div>
+                <div class="stat" data-aos="zoom-in" data-aos-delay="100">
+                    <span class="number" data-count="50">0</span>
+                    <span class="label">Happy Clients</span>
+                </div>
+                <div class="stat" data-aos="zoom-in" data-aos-delay="200">
+                    <span class="number" data-count="12">0</span>
+                    <span class="label">Industry Awards</span>
+                </div>
+                <div class="stat" data-aos="zoom-in" data-aos-delay="300">
+                    <span class="number" data-count="98">0</span>
+                    <span class="label">Client Satisfaction %</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact" data-aos="fade-up">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Have a project in mind or want to join our team? We'd love to hear from you.</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">TechSolutions</a>
+                    <p>Innovative solutions for a digital world.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#values">Our Values</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechSolutions Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Team Member Modals -->
+    <div class="modal" id="memberModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Content will be loaded here via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
