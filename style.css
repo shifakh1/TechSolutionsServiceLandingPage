@@ -326,7 +326,7 @@ a {
 
 .team-card {
     perspective: 1000px;
-    height: 400px;
+    height: 450px;
 }
 
 .card-inner {
@@ -383,9 +383,16 @@ a {
     margin-bottom: 1rem;
 }
 
+.short-bio {
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
 .bio {
     margin-bottom: 1.5rem;
     font-size: 0.9rem;
+    line-height: 1.6;
 }
 
 .social-links {
@@ -716,7 +723,7 @@ footer {
     }
     
     .team-card {
-        height: 380px;
+        height: 420px;
     }
     
     .modal-body {
@@ -738,7 +745,7 @@ footer {
     }
     
     .team-card {
-        height: 350px;
+        height: 400px;
     }
     
     .modal-content {
